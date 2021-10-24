@@ -1,0 +1,29 @@
+﻿Game Sequence:
+{
+	Part 1:
+	{
+		- Welcomes players
+		- Asks for number of players from 2-8
+		- User inputs number
+		- If number is less than 2 or greater than 8, user is given an error and told to input the right number
+		- If user inputs a correct number then that number of player objects are created
+		- Each player is asked for their name and age
+		- Each player inputs a name and age
+		- After each player makes both inputs the console displays their name, age, luck, and current number of points
+		- When all the players are finished being made, each player automatically rolls a d10
+		- The number each player rolled is displayed
+		- Console then displays who won or tied for first
+	}
+
+	Part 2:
+	{
+		- A random game is selected
+		- Each player plays through the game
+		- Points are rewarded to each player depending on how well they did
+		- Console prints the number of points each player earned and their new total number of points
+		- If a player has more points than any other player, then that player wins. The game displays that player won by getting the key and escaping the labyrinth
+		- If there are multiple players in first, then another game is randomly selected
+	}
+}
+
+Sekol's Code: https://github.com/ninjafiveo/Nerd_Labyrinth_Final

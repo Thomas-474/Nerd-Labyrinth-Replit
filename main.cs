@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 class Program
 {
   public static void Main (string[] args)
-	{
+	{	
 		GameSetup.CreatePlayers();
 		GameSetup.DiceTest();
+		NumberGuesser game = new NumberGuesser();
 
 		
     Console.ReadKey();

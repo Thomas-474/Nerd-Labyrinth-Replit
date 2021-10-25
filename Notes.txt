@@ -17,12 +17,15 @@
 
 	Part 2:
 	{
-		- A random game is selected
-		- Each player plays through the game
-		- Points are rewarded to each player depending on how well they did
+		- Hangman is the selected game
+		- Each player takes turns
+		- On a player's turn they can choose between guessing the word or guessing a letter
+		- If a player correctly guesses a letter, they get 1 point
+		- If a player incorrectly guesses a letter, they lose 1 point
+		- If a player correctly guesses the word, they get 5 points
+		- If a player incorrectly guesses the word, they lose 5 points
 		- Console prints the number of points each player earned and their new total number of points
-		- If a player has more points than any other player, then that player wins. The game displays that player won by getting the key and escaping the labyrinth
-		- If there are multiple players in first, then another game is randomly selected
+		- Player(s) with the most points wins. The game displays that player won by getting the key and escaping the labyrinth
 	}
 }
 
